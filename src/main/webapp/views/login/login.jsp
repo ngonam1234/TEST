@@ -13,8 +13,8 @@
 <body>
 <h3>${message}</h3>
 <form action="/Lab3_war/LoginServlet" method="post">
-    Username123: <input type="text" name="username" value="${username}"> <br>
-    password123: <input type="password" name="password" value="${password}">
+    Username123: <input type="text" name="username123" value="${username}"> <br>
+    password123: <input type="password" name="password123" value="${password}">
     <br>
     <input type="checkbox" name="remember"> Remember me ?
     <hr>

@@ -21,8 +21,8 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        String username = request.getParameter("username123");
+        String password = request.getParameter("password123");
         String remember = request.getParameter("remember");
         if (!username.equalsIgnoreCase("poly")) {
             request.setAttribute("message", "Sai Ten Dang Nhap");
